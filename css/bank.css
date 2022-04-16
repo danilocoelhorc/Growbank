@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(214, 210, 210);
+}
+
+#menubarra {
+    background-color: rgb(155, 117, 152);
+    height: 120px;
+    width: 100%;
+}
+#menusaldo {
+    background-color: rgb(255, 255, 255);
+    margin: 55px 10px 0px 0px;
+    border-radius: 15px;
+    height: 400px;
+    width: 30%;
+    float: right;
+}
+#menuprincipal {
+    background-color: white;
+    height: 80px;
+    border-radius: 10px;
+    margin: 5px 10px 0px 10px;
+}
+
+#logo {
+    max-height: 50px;
+    margin: 10px 0px 10px 10px;
+}
+
+#busca {
+    border-radius: 20px;
+    padding: 3px;
+    margin-left: 100px;
+}
+
+#sair {
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.icones-menu {
+    max-height: 40px;
+    margin: 15px 10px 10px 10px;
+
+}

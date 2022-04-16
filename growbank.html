@@ -2,11 +2,29 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bank.css">
     <title>Growbank</title>
 </head>
 <body>
-    <div class="container">
+    <nav id="menubarra">
+            <img src="https://www.growdev.com.br/assets/images/logo-dark.png" id="logo"   alt="">
+            <input type="text" id="busca" placeholder="Pesquisar"/>
+            <a href="index.html"><p id="sair">Sair</p> </a>
+    
+    <div id="menuprincipal">
+        <ul>
+            <li> <img src="https://cdn-icons-png.flaticon.com/512/49/49721.png" class="icones-menu" alt=""> </li>
+            <li> <img src="https://i.pinimg.com/originals/a5/76/f0/a576f05670a20e88b1342462bb54febb.png" class="icones-menu" alt=""> </li>
+
+        </ul>
+    </div>
+    </nav>
+    <div id="menusaldo">
+        <h1>Saldo Atual</h1><hr>
+        <p> Você tem um saldo de: </p>
+        <span id="saldoHmtl"></span><hr>
+    </div>
+   <!--  <div class="container">
         Veja seu Saldo 
         <button id="calcularSaldo">Saldo</button> <br><br>
         <div class="input">
@@ -29,7 +47,7 @@
 
         <button id="calcularTransferir">Transferir</button><br><br>
         <div id="result"></div>
-    </div>
+    </div> !-->
 </body>
 <script src="./js/growbank.js"></script>
 </html>

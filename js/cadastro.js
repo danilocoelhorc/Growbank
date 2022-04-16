@@ -1,11 +1,10 @@
-const login = document.getElementById('logar');
-const senha = document.getElementById('logar');
+const nome = document.getElementById('name');
+const email = document.getElementById('email');
+const senha = document.getElementById('senha');
 
-login.addEventListener ('click', criarUser);
+botao-cadastro.addEventListener ('click', criarCadastro);
 
-function criarUser () {
-    const login = (document.getElementById('login').value);
-    const senha = parseInt(document.getElementById('senha').value);
+function criarCadastro () {
     if (login == "danilo"){
             alert ("Login realizado com sucesso")
             window.open("growbank.html")

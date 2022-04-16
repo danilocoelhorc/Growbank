@@ -1,14 +1,18 @@
-const calculate1 = document.getElementById('calcularSaldo');
-const calculate2 = document.getElementById('calcularSaque');
-const calculate3 = document.getElementById('calcularDeposito');
-const calculate4 = document.getElementById('calcularTransferir');
+const atualizarSaldo = document.getElementById('calcularSaldo');
+const atualizarSaque = document.getElementById('calcularSaque');
+const atualizarDeposito = document.getElementById('calcularDeposito');
+const atualizarTransferencia = document.getElementById('calcularTransferir');
 const menu2 = 3, validSenha = 0
 let saldo = 100, chequeespecial = 500.00
 
-	calculate1.addEventListener ('click', saldoAtual);
-	calculate2.addEventListener ('click', saqueAtual);
-	calculate3.addEventListener ('click', depositoAtual);
-	calculate4.addEventListener ('click', transferenciaAtual);
+    let saldoHmtl = document.getElementById('saldoHmtl');
+    saldoHmtl.innerHTML = saldo;
+
+
+	atualizarSaldo.addEventListener ('click', saldoAtual);
+	atualizarSaque.addEventListener ('click', saqueAtual);
+	atualizarDeposito.addEventListener ('click', depositoAtual);
+	atualizarTransferencia.addEventListener ('click', transferenciaAtual);
 
 	function saldoAtual (){	
 		document.write ("Seu saldo atual é de: ", + saldo + " growcoins")
