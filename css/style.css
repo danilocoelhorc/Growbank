@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(210, 199, 216);
+}
+
+#blocomenu {
+    margin: 80px 30px 0px 30px;
+    position:relative;
+}
+
+#bgdireita {
+    background-color: rgb(155, 117, 152);
+    border-radius: 20px 0px 0px 20px;
+    width: 40%;
+    height: 500px;
+    float: left
+}
+
+#bgesquerda {
+    background-color: white;
+    border-radius: 0px 20px 20px 0px;
+    width: 60%;
+    height: 500px;
+    float: right
+}
+
+h1 {
+    color: orange;
+    font-family: Helvetica
+}
+
+#bgcadastro {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    height: 400px;
+}
+
+
+#bloco1-menu {
+    text-align: center;
+    margin: 180px 0px 0px 0px;
+    color: white;
+}
+
+#bloco2-menu {
+    text-align: center;
+    margin: 130px 0px 0px 0px;
+}
+
+#bloco-login {
+    text-align: center;
+    padding: 120px;
+}
+
+.icones {
+    max-height: 30px;
+    margin: 0px 0px 0px 20px;
+}
+
+.botao {
+    background-color: #9b7598;
+    color: white;
+    border-radius: 100px;
+    border-color: white;
+    padding: 5px 20px 5px 20px
+}
+
+.botao2 {
+    background-color: orange;
+    color: white;
+    border-radius: 100px;
+    margin-top: 10px;
+    padding: 5px 20px 5px 20px;
+}
