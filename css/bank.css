@@ -7,35 +7,64 @@ body {
     background-color: rgb(214, 210, 210);
 }
 
-#menubarra {
+
+#menu-principal {
     background-color: rgb(155, 117, 152);
-    height: 120px;
-    width: 100%;
+    height: 150px;
 }
-#menusaldo {
-    background-color: rgb(255, 255, 255);
-    margin: 55px 10px 0px 0px;
+
+#menu-navegacao {
+    background-color: white;
+    height: 90px;
+    width: 98%;
+    margin: 27px 10px 0px 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+#bloco-principal {
+    margin: 38px 1px 0px 1px;
+}
+
+#conteudo-principal {
+    background-color: white;
+    margin: 15px 0px 0px 10px;
+    float: left;
     border-radius: 15px;
     height: 400px;
-    width: 30%;
-    float: right;
+    width: 67%;
 }
-#menuprincipal {
+
+#conteudo-saldo {
+    background-color: rgb(255, 255, 255);
+    float: right;
+    border-radius: 15px;
+    height: 400px;
+    margin: 15px 10px 0px 0px;
+    width: 30%;
+}
+
+#rodape {
     background-color: white;
-    height: 80px;
+    height: 90px;
+    width: 98%;
+    margin: 425px 10px 10px 10px;
     border-radius: 10px;
-    margin: 5px 10px 0px 10px;
+    position: absolute;
 }
 
 #logo {
     max-height: 50px;
-    margin: 10px 0px 10px 10px;
+    margin: 22px 0px 0px 20px;
+
+    
 }
 
 #busca {
-    border-radius: 20px;
-    padding: 3px;
-    margin-left: 100px;
+    border-radius: 5px;
+    padding: 20px 300px 0px 10px;
+    margin-left: 10px;
+  
 }
 
 #sair {
@@ -46,6 +75,14 @@ body {
 
 .icones-menu {
     max-height: 40px;
-    margin: 15px 10px 10px 10px;
+    margin: 18px 30px 0px 25px;
+    float: left;
+}
 
+.menu-bank {
+    list-style:none;
+}
+
+span {
+    color: orange;
 }

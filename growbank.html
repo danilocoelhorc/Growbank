@@ -6,48 +6,70 @@
     <title>Growbank</title>
 </head>
 <body>
-    <nav id="menubarra">
-            <img src="https://www.growdev.com.br/assets/images/logo-dark.png" id="logo"   alt="">
-            <input type="text" id="busca" placeholder="Pesquisar"/>
+   <nav id="menu-principal">
+        <div>
+           <img src="https://www.growdev.com.br/assets/images/logo-dark.png" id="logo" alt="">
+           <input type="text" id="busca" placeholder="   Digite aqui sua pesquisa: "/>
             <a href="index.html"><p id="sair">Sair</p> </a>
-    
-    <div id="menuprincipal">
-        <ul>
-            <li> <img src="https://cdn-icons-png.flaticon.com/512/49/49721.png" class="icones-menu" alt=""> </li>
-            <li> <img src="https://i.pinimg.com/originals/a5/76/f0/a576f05670a20e88b1342462bb54febb.png" class="icones-menu" alt=""> </li>
-
-        </ul>
-    </div>
+            <span id="sair"> Nome do usuário </span>
+        </div>
+        <div id="menu-navegacao">
+            <ul class="menu-bank">
+               
+                <li><a href="./growbank.html"><img src="./images/menu/home-menu-bank.png" class="icones-menu" alt=""></a></li>
+                
+                
+                <li><img src="./images/menu/saque-menu-bank.png" class="icones-menu" alt=""> </li>
+                
+                
+                <li><a href=""><img src="./images/menu/deposito-menu-bank.png" class="icones-menu" alt=""></a> </li>
+                <li><a href=""><img src="./images/menu/transfer-menu-bank.png" class="icones-menu" alt=""></a> </li>
+                <li><a href=""><img src="./images/menu/cartao-menu-bank.png" class="icones-menu" alt=""></a> </li>
+                <li><a href=""><img src="./images/menu/poupanca-menu-bank.png" class="icones-menu" alt=""></a> </li>
+            </ul>
+        </div>
     </nav>
-    <div id="menusaldo">
-        <h1>Saldo Atual</h1><hr>
-        <p> Você tem um saldo de: </p>
-        <span id="saldoHmtl"></span><hr>
-    </div>
-   <!--  <div class="container">
-        Veja seu Saldo 
-        <button id="calcularSaldo">Saldo</button> <br><br>
-        <div class="input">
-            <label for="">Valor do Saque</label>
-            <input type="number" id="saque">
+    <main id="bloco-principal">
+        <div id="conteudo-principal">
+            <h1> Seja bem vindo: <span> Nome user </span><br></h1>
+           <h3> Escolha uma opção abaixo: </h3> <br><br>
+
+            <div class="container">
+                <div class="input">
+                    <label for="">Valor do Saque</label>
+                    <input type="number" id="saque">
+                </div>
+                <button id="calcularSaque">Sacar</button><br><br>
+        
+                <div class="input">
+                    <label for="">Valor do Deposito</label>
+                    <input type="number" id="deposito">
+                </div>
+        
+                <button id="calcularDeposito">Depositar</button><br><br>
+        
+                <div class="input">
+                    <label for="">Valor da Transferência</label>
+                    <input type="number" id="transferencia">
+                </div>
+        
+                <button id="calcularTransferir">Transferir</button><br><br>
+                <div id="result"></div> 
+            </div>
+
+         </div>
+        <div id="conteudo-saldo">
+            <h1>Saldo Atual</h1><hr>
+            <p> Seu saldo atual é de:  </p>
+            <p> R$: <strong><span id="saldoHmtl"></span></strong></p><hr>
+            <span id="saqueHtml"></span><hr>
+            <span id="depositoHtml"></span><hr>
+            <span id="transferenciaHtml"></span><hr>
         </div>
-        <button id="calcularSaque">Sacar</button><br><br>
-
-        <div class="input">
-            <label for="">Valor do Deposito</label>
-            <input type="number" id="deposito">
-        </div>
-
-        <button id="calcularDeposito">Depositar</button><br><br>
-
-        <div class="input">
-            <label for="">Valor da Transferência</label>
-            <input type="number" id="transferencia">
-        </div>
-
-        <button id="calcularTransferir">Transferir</button><br><br>
-        <div id="result"></div>
-    </div> !-->
+    </main>
+    <footer id="rodape">
+        rodapé
+    </footer>
 </body>
 <script src="./js/growbank.js"></script>
 </html>
